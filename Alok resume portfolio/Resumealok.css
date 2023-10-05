@@ -1,0 +1,61 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2 ;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #3498db;
+    color: black;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Headings styles */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Links styles */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists styles */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-top: 20px;
+}
